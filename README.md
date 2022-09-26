@@ -7,7 +7,7 @@ Awesome Books: with ES6
 
 ## Built With
 
-HTML, JS & CSS
+HTML, CSS & JS
 
 ## [Live demo](https://devmunyi.github.io/Awesome-books-with-ES6/)
 
