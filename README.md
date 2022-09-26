@@ -9,7 +9,7 @@ Awesome Books: with ES6
 
 HTML, JS & CSS
 
-## [Live demo](https://devmunyi.github.io/awesome_books/)
+## [Live demo](https://devmunyi.github.io/Awesome-books-with-ES6/)
 
 
 ## Getting Started
