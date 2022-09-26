@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awsome Books: with ES6</title>
+    <!-- Link index.css -->
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="nav__container">
+        <div class="brand-name">Awesome Books</div>
+        <ul class="nav-right__list-container">
+          <li class="nav-right__list-item">
+            <a
+              id="nav__item--books-list"
+              class="nav__item active"
+              href="javascript:void(0)"
+            >
+              List
+            </a>
+          </li>
+          <li class="nav-right__list-item">
+            <a
+              id="nav__item--add-book"
+              class="nav__item"
+              href="javascript:void(0)"
+              >Add new
+            </a>
+          </li>
+          <li class="nav-right__list-item">
+            <a
+              id="nav__item--contact"
+              class="nav__item"
+              href="javascript:void(0)"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Dynamic Date -->
+    <div class="dateinfo">
+      <p id="dateinfo">March 9th 2021, 9:25:32 am</p>
+    </div>
+
+    <!-- Begin Main  -->
+    <main class="main-wrapper">
+      <section class="section" id="books-list">
+        <br /><br />
+        <h1 class="main-title text-center">All Awesome Books</h1>
+        <br /><br />
+        <div class="wrap-books-list">
+          <div id="books" class="books books-list"></div>
+        </div>
+      </section>
+
+      <!-- add book section -->
+      <section id="add-books" class="section">
+        <br /><br />
+        <h1 class="add-book-title">Add a new book</h1>
+        <br /><br />
+        <form id="add-book-form" action="" method="post">
+          <div class="book-input__container">
+            <input
+              type="text"
+              name="title"
+              id="title"
+              placeholder="Title"
+              class="add-book-input book-title-input"
+              required
+            />
+          </div>
+          <br />
+          <div class="book-input__container">
+            <input
+              type="text"
+              name="author"
+              id="author"
+              placeholder="Author"
+              class="add-book-input book-author-input"
+              required
+            />
+          </div>
+          <br />
+          <div class="book-input__container">
+            <button type="submit" class="add-book-btn">Add</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- contact section -->
+      <section class="section hide" id="contact">
+        <br /><br />
+        <h1 class="contact-title">Contact Information</h1>
+        <br /><br />
+        <p class="contact-desc">
+          Do you have any questions or you just want to say "Hello"? <br />
+          You can reach out to us.
+        </p>
+        <br />
+        <ul class="contact-details-list__container">
+          <li class="contact-detail-list-item">Our e-mail: mail@gmail.com</li>
+          <li class="contact-detail-list-item">
+            Our phone number: 254117923438221
+          </li>
+          <li class="contact-detail-list-item">
+            Our address: Streetname 22 84503 City, Country
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- End Main  -->
+
+    <!-- Footer -->
+    <footer class="footer"><p>Copyright &copy;Awesome Books</p></footer>
+
+    <!-- Link index.js -->
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  line-height: 21px;
+  color: #24292f;
+  font-style: normal;
+}
+
+header ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh - 125px);
+  width: 100%;
+}
+
+.dateinfo {
+  display: flex;
+  justify-content: end;
+  width: 98%;
+  padding-top: 5px;
+  height: 20px;
+}
+
+#books-list {
+  width: 100%;
+}
+
+.wrap-books-list {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+.book {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.book:nth-of-type(odd) {
+  background-color: rgba(201, 197, 197, 0.5);
+}
+
+#books {
+  border: 2px solid black;
+  width: 98%;
+}
+
+.title-and-author {
+  display: flex;
+  gap: 5px;
+}
+
+.remove_book-btn,
+.add-book-btn {
+  box-shadow: #000 0 5px 5px 0;
+  border: 2px solid #000;
+  padding: 2px;
+}
+
+.guide-rule {
+  height: 3px;
+  background-color: #000;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.main-title,
+.add-book-title,
+.contact-title {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.add-book-title {
+  padding-bottom: 5px;
+}
+
+.book-input__container {
+  width: 100%;
+}
+
+.add-book-input {
+  border: 3px solid #000;
+  padding: 8px;
+  width: 100%;
+}
+
+#add-books {
+  display: none;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+}
+
+#add-book-form {
+  width: 50%;
+}
+
+.add-book-btn {
+  float: right;
+  padding: 2px 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+header,
+footer {
+  height: 50px;
+  border: 2px solid black;
+  width: 98%;
+  padding-left: 5%;
+  margin: 0 auto;
+}
+
+.nav__container {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand-name {
+  flex: 1;
+}
+
+.nav-right__list-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 0.3;
+}
+
+.nav-right__list-container > li:nth-child(even) {
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+}
+
+.nav-right__list-item {
+  padding: 0 10px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.remove_book-btn__container {
+  margin-right: 10px;
+}
+
+.contact-details-list__container {
+  padding-left: 1em !important;
+}
+
+.contact-detail-list-item {
+  margin-left: 1em !important;
+}
+
+.active {
+  color: blue !important;
+}
+
+.black {
+  color: #000;
+}
